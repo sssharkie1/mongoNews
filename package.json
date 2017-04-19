@@ -1,0 +1,40 @@
+{
+  "name": "cheeriomongo-scraper",
+  "version": "1.0.0",
+  "description": "A NodeJS web-scraper app that utilizes Cheerio and MongoDB and allows users to comment on articles",
+  "main": "server.js",
+  "engines": {
+    "node": "6.3.1",
+    "npm": "2.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sssharkie1/Mongo-News.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Cheerio",
+    "MongoDB",
+    "MongoJS",
+    "express",
+    "express-handlebars",
+    "request",
+    "body-parser",
+    "web-scraping"
+  ],
+  "author": "Sarah A. Stevens",
+  "homepage": "https://github.com/sssharkie1/Mongo-News.git",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "mongojs": "^2.4.0",
+    "request": "^2.74.0"
+  }
+}
